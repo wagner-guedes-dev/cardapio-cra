@@ -1,0 +1,15 @@
+.item-pedidos{
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+button{
+    cursor: pointer;
+    width: 80px;
+    font-weight: bold;
+    background-color: rgba(240, 13, 13, 0.582);
+}

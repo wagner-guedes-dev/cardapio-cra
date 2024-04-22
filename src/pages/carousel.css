@@ -1,0 +1,25 @@
+
+
+.carousel-container {
+    overflow: hidden;
+    margin-top: -75px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  .carousel-wrapper li{
+    flex: 0 0 150px;
+    padding: 10px;
+    text-align: center;
+    color: #141414;
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
