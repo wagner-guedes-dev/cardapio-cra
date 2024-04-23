@@ -11,6 +11,7 @@ import MaisVendidos from './MaisVendidos.jsx';
 import Jogos from './Jogos.jsx'
 import Hamburgueres from './Hamburgueres.jsx'
 import Combos from './Combos.jsx'
+import AcaiTaca from './AcaiTaca.js';
 
 const Header = () => {
   const [numeroMesa, setNumeroMesa] = useState('');
@@ -42,6 +43,7 @@ const Header = () => {
   const [jogos, setJogos] = useState('');
   const [hamburgueres, setHamburgueres] = useState('')
   const [combos, setCombos] = useState('')
+  const [acaitaca, setAcaiTaca] = useState('')
 
   return (
     <div className='header'>
@@ -90,6 +92,7 @@ const Header = () => {
       <Jogos setJogos={setJogos}/>
       <Hamburgueres setHamburgueres={setHamburgueres}/>
       <Combos setCombos={setCombos}/>
+      <AcaiTaca setAcaiTaca={setAcaiTaca}/>
     </div>
   );
 };

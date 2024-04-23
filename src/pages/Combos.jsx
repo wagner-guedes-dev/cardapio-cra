@@ -4,12 +4,9 @@ import './maisVendidos.css'; // Adjust the filename casing if needed
 
 
 import kids from '../images/combokids.png'
-import estrela from '../images/estrela.png'
 import via from '../images/combovialactea.png'
 import combogalaxia from '../images/combogalaxia.png'
-import nebulosa from '../images/nebulosa.png'
-import bigbang from '../images/bigbang.png'
-import cheddar from '../images/piscina.png'
+
 
 
 const Combos = ({ setCombos }) => {
