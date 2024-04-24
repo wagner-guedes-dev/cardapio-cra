@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './maisVendidos.css'; // Adjust the filename casing if needed
 
 
-import tradicional from '../images/tradicional.jpeg'
+import cafetradicional from '../images/cafetradicional.jpeg'
 import space from '../images/spaceacai.jpeg'
 import cafegeladonutela from '../images/cafegeladonutela.jpeg'
 import nutela from '../images/nutela.jpeg'
@@ -36,7 +36,7 @@ const CafeGelado = ({ setCafeGelado }) => {
             </p>
             </div>
             <div className='image'>
-                <img src={tradicional}/>
+                <img src={cafetradicional}/>
             </div>
         </li>
 
