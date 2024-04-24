@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import {
   getFirestore, collection, onSnapshot, deleteDoc, doc
 } from 'firebase/firestore';
-
+ import './centralPedidos.css'
 
 const CentralPedidos = () => {
   const [pedidos, setPedidos] = useState([]);

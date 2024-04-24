@@ -10,7 +10,7 @@ function RoutesApp(){
             <Routes>
                 <Route path='/' element={ <Container/> }/>
                 <Route path='/admin' element={ <CentralPedidos/> }/>
-                <Route path='space-ice' element={ <SpaceIce/> } />
+                <Route path='spaceice' element={ <SpaceIce/> } />
             </Routes>
         </BrowserRouter>
     )

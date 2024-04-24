@@ -7,6 +7,7 @@ import nebulosa from '../images/nebulosa.png'
 import FritasCheddar from '../images/batatacheddar.png'
 
 
+
 const MaisVendidos = ({ setMaisVendidosId }) => {
   const handleSetMaisVendidosId = () => {
     // Supondo que o ID seja "mais-vendidos"

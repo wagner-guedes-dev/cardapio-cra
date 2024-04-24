@@ -58,7 +58,7 @@ const AcaiTaca = ({ setAcaiTaca }) => {
             <div className='center'>
             <h4>Taça sensação</h4>
             <p className='info-product'>
-           Açai,mousse de morango, chantilly, morango, leite em pó, gotas de chocolate e nutela.
+           Açai, mousse de morango, chantilly, morango, leite em pó, gotas de chocolate e nutela.
        </p>
             <p className='value-product'>
             300ml - R$ 23,50 <br/> 400ml - R$ 25,50<br/> 500ml - R$ 26,50
@@ -73,7 +73,7 @@ const AcaiTaca = ({ setAcaiTaca }) => {
             <div className='center'>
             <h4>Taça kitkat</h4>
             <p className='info-product'>
-            Açai, leite em pó, mousse ninho, morango e kitkat em pedaços.
+            Açai, leite em pó, creme de ninho, morango e kitkat em pedaços.
        </p>
             <p className='value-product'>
             300ml - R$ 23,50 <br/> 400ml - R$ 25,50<br/> 500ml - R$ 26,50
@@ -88,7 +88,7 @@ const AcaiTaca = ({ setAcaiTaca }) => {
             <div className='center'>
             <h4>Super taça TRIPLO KINDER</h4>
             <p className='info-product'>
-            Açai, leite em pó, mousse de ninho, ovomaltine, castanha, kinder, kinder bueno, kinder ovo com brinquedo, nutella, morango e banana.
+            Açai, leite em pó, creme de ninho, ovomaltine, castanha, kinder, kinder bueno, kinder ovo com brinquedo, nutella, morango e banana.
        </p>
             <p className='value-product'>600ml - R$ 40,90</p>
             </div>

@@ -34,9 +34,9 @@
     padding-top: 5px;
     margin-bottom: 10px;
     padding-bottom: 5px;
-    font-weight:600;
+    font-weight:500;
     border-radius: 5px;
-    border: 2px solid #8833ab;
+    border-top: 2px solid #8833ab;
 
 }
 
@@ -51,6 +51,7 @@
     border-bottom: 2px solid #adadad;
     padding-bottom: 20px;
     padding: 10px;
+
 }
 
 

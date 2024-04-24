@@ -12,6 +12,9 @@ import Jogos from './Jogos.jsx'
 import Hamburgueres from './Hamburgueres.jsx'
 import Combos from './Combos.jsx'
 import AcaiTaca from './AcaiTaca.js';
+import AcaiCopo from './Acaicopo.js';
+import MonteSeuAcai from './MonteSeuAcai.js';
+import CafeGelado from './CafeGelado.js'
 
 const Header = () => {
   const [numeroMesa, setNumeroMesa] = useState('');
@@ -44,6 +47,9 @@ const Header = () => {
   const [hamburgueres, setHamburgueres] = useState('')
   const [combos, setCombos] = useState('')
   const [acaitaca, setAcaiTaca] = useState('')
+  const [acaicopo, setAcaiCopo] = useState('')
+  const [monteSeuAcai, setMonteSeuAcai] = useState('')
+  const [cafeGelado, setCafeGelado] = useState('')
 
   return (
     <div className='header'>
@@ -93,6 +99,9 @@ const Header = () => {
       <Hamburgueres setHamburgueres={setHamburgueres}/>
       <Combos setCombos={setCombos}/>
       <AcaiTaca setAcaiTaca={setAcaiTaca}/>
+      <AcaiCopo setAcaiCopo={setAcaiCopo} />
+      <MonteSeuAcai setMonteSeuAcai={setMonteSeuAcai} />
+      <CafeGelado setCafeGelado={setCafeGelado} />
     </div>
   );
 };

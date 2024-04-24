@@ -42,18 +42,6 @@ const Carousel = ({maisVendidosId} ) => {
           <Link to="mais-vendidos"   smooth={true} duration={500}>Mais vendidos</Link>
         </motion.li>
         <motion.li>
-          <Link to="jogos" smooth={true} duration={500}>Jogos</Link>
-        </motion.li>
-        <motion.li>
-          <Link to="hamburgueres" smooth={true} duration={500}>Hamburgueres</Link>
-        </motion.li>
-        <motion.li>
-          <Link to="combos" smooth={true} duration={500}>Combos</Link>
-        </motion.li>
-        <motion.li>
-          <Link to="porcoes" smooth={true} duration={500}>Porções</Link>
-        </motion.li>
-        <motion.li>
           <Link to="acai-taca" smooth={true} duration={500}>Açai na taça</Link>
         </motion.li>
         <motion.li>
@@ -63,16 +51,7 @@ const Carousel = ({maisVendidosId} ) => {
           <Link to="monte-acai" smooth={true} duration={500}>Monte seu açai</Link>
         </motion.li>
         <motion.li>
-          <Link to="drinks" smooth={true} duration={500}>Drinks</Link>
-        </motion.li>
-        <motion.li>
           <Link to="cafe-gelado" smooth={true} duration={500}>Café gelado</Link>
-        </motion.li>
-        <motion.li>
-          <Link to="chocolate-quente" smooth={true} duration={500}>Chocolate quente</Link>
-        </motion.li>
-        <motion.li>
-          <Link to="bebidas" smooth={true} duration={500}>Bebidas</Link>
         </motion.li>
       </motion.ul>
     </div>

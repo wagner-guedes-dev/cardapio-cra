@@ -4,6 +4,7 @@
     overflow: hidden;
     margin-top: -75px;
     margin-bottom: 10px;
+    background-color: #ffff;
   }
   
   .carousel-wrapper {
@@ -18,8 +19,8 @@
     flex: 0 0 150px;
     padding: 10px;
     text-align: center;
-    color: #141414;
-    font-weight: bold;
+    color: #535353;
+    font-weight: 600;
     font-size: 19px;
   }
   
