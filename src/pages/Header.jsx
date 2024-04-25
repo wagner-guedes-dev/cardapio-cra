@@ -57,7 +57,7 @@ const Header = () => {
 
   return (
     <div className='header'>
-      <ToastContainer /> {/* Renderiza o container para as notificações */}
+      <ToastContainer /> 
       <div className='apresentacao'>
         <div className='empresas'>
           <img className='logo' src={SpaceBurguer} alt="SpaceBurguer"/>
@@ -65,6 +65,7 @@ const Header = () => {
           <img className='logo' src={SpaceIce} alt="SpaceIce"/>
           <h3 className='boas-vindas'>Seja bem-vindo a SPACE GAMER!</h3>
         </div>
+        
       </div>
 
       <div className='solicitar-atendimento-modal'>

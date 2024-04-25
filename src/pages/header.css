@@ -190,5 +190,19 @@ h3 {
             height: 80px;
             margin-bottom: 30px;
         }
-    } */
+    }
+ */
+ @media (max-width: 418px) {
+    .digite1 textarea{
+        width: 95%;
+    }
+}
+
+@media (max-width: 387px) {
+    .logo{
+        width: 95px;
+        height: 95px;
+        margin-bottom: 30px;
+    }
+}
 
