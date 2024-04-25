@@ -38,7 +38,7 @@ const Header = () => {
         pedido: pedido || null
       });
       
-      toast.success('Formulário enviado com sucesso!' , {
+      toast.success('Sua solicitação foi enviada com sucesso!' , {
         position: "top-center",
         autoClose: 4000,
         hideProgressBar: false,
