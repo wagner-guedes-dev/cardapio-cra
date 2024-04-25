@@ -1,8 +1,8 @@
 
 
 .header{
-    background-image: url('../images/spacegamer.jpg');
-    height: 340px;
+    background-image: url('../images/spacegamer.jpeg');
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
     width: 110px;
     height: 110px;
     border-radius: 100%;
-    border: 4px solid #ffff;
+    border: 4px solid #8833ab;
     margin: 0 5px;
     margin-bottom: 10px;
 }
@@ -30,6 +30,7 @@
     background-color: #ffff;
     font-weight: 700;
     color: #8833ab;
+    border: 4px solid #8833ab;
     padding: 10px;
     border-radius: 10px;
     font-family: "Source Sans 3", sans-serif;
@@ -38,14 +39,15 @@
 
 .solicitar-atendimento-modal{
     margin: 75px auto;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 80px;
     background-color: #ffffff;
     width: 80%;
     border-radius: 10px;
-    padding: 10px;
-  
-    transition: 1.2s;
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 4px solid #8833ab;
 }
 
 
@@ -81,7 +83,6 @@
 }
 
 .digite p{
-    
     font-size: 12px;
 }
 
@@ -90,18 +91,20 @@
     border: none;
     border-radius: 5px;
     background-color: #d1d1d1;
-    width: 110px;
+    width: 50px;
     height: 30px;
     padding-left: 5px;
+    text-align: center;
 }
 .digite1 textarea{
-    margin-top: -20px;
+    margin-top: -15px;
     margin-bottom: 15px;
     border: none;
     border-radius: 5px;
     background-color: #d1d1d1;
     width: 320px;
-    height: 50px;
+    
+    height: 80px;
     resize: none;
     padding-left: 5px;
 }
@@ -195,24 +198,19 @@ label::before{
   }
 
   div.p{
-    max-height:250px; 
-    /*  max-height:px;  altura com todas as opçoes*/
-    overflow: hidden;
-    transition: .3s;
     text-align: center;
   }
 
-    div.q{
-        max-height:0px; 
-        overflow: hidden;
-        transition:max-height 0.5s;
-        transition: .3s;
-        text-align: center;
-    }  
-
  
-
  
+ 
+.div-btn{
+   gap: 20px;
+}
+
+.div-btn button{
+    width: 150px;
+}
 
     @media (max-width: 390px) {
         .logo{

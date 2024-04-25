@@ -43,8 +43,8 @@ const CentralPedidos = () => {
       <ul>
         {pedidos.map((pedido) => (
           <li key={pedido.id} className='item-pedidos'>
-            <p>Mesa: {pedido.mesa}</p>
-            {pedido.pedido && <p>Pedido: {pedido.pedido}</p>}
+            <p className='pedido'>Mesa: {pedido.mesa}</p>
+            {pedido.pedido && <p>Pedido:<br/> {pedido.pedido}</p>}
             <button onClick={() => excluirPedido(pedido.id)}>Excluir</button>
           </li>
           
