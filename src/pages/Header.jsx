@@ -57,15 +57,25 @@ const Header = () => {
 
   return (
     <div className='header'>
+
       <ToastContainer /> 
+      <div className='principal'>
+      <a href="https://www.instagram.com/spacegamerwr">
+        <img className='logo' src={logo} alt="Logo"></img>
+
+      </a>
+      </div>
       <div className='apresentacao'>
         <div className='empresas'>
-          <img className='logo' src={SpaceBurguer} alt="SpaceBurguer"/>
-          <img className='logo' src={logo} alt="Logo"/>
+          <a href="https://www.instagram.com/spaceburguerwr">
+            <img className='logo ' src={SpaceBurguer} alt="SpaceBurguer"/>   
+          </a>
+          <a href="https://www.instagram.com/spaceicewr"> 
           <img className='logo' src={SpaceIce} alt="SpaceIce"/>
-          <h3 className='boas-vindas'>Seja bem-vindo a SPACE GAMER!</h3>
+
+          </a>
         </div>
-        
+        <h3 className='boas-vindas'>Seja bem-vindo a SPACE GAMER!</h3>
       </div>
 
       <div className='solicitar-atendimento-modal'>
@@ -76,16 +86,17 @@ const Header = () => {
             <p>Por favor digite o número da sua mesa:</p>
             <input 
               type='number' 
-              placeholder='Número da mesa' 
+              placeholder='Número:' 
               value={numeroMesa} 
               onChange={(e) => setNumeroMesa(e.target.value)} 
+              disabled={true}
             />
           </div>
           <div className='digite1'>
             <p>Caso queira fazer o pedido, digite o que você deseja:</p>
             <br/>
             <textarea 
-              placeholder='(Opcional)'
+              placeholder='Digite seu pedido'
               value={pedido}
               onChange={(e) => setPedido(e.target.value)}
             />
@@ -101,7 +112,7 @@ const Header = () => {
           
         </div>
       </div>
-      
+      <footer>Desenvolvido por Wagner Guedes</footer>
     </div>
   );
 };
