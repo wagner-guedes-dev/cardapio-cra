@@ -10,6 +10,7 @@ function RoutesApp() {
       {/* Renderize o componente Header fora das rotas */}
       
       <Routes>
+        <Route path="/" element={<Header />} />
         <Route path="/1" element={<Header />} />
         <Route path="/2" element={<Header />} />
         <Route path="/3" element={<Header />} />
