@@ -48,6 +48,7 @@ const Header = () => {
         progress: undefined,
         className: 'toast-border',
         theme: "dark"}); // Exibe a notificação de sucesso
+        setPedido('')
     } catch (error) {
       console.error('Erro ao enviar formulário:', error);
       alert('Erro ao enviar formulário. Por favor, tente novamente mais tarde.');
@@ -67,7 +68,7 @@ const Header = () => {
       </div>
 
       <div className='solicitar-atendimento-modal'>
-        <input className='test' type="checkbox" id="faq-1"/> 
+        
         <h3> Solicitar seu atendimento!</h3>
         <div className="p">
           <div className='digite'>
