@@ -8,11 +8,11 @@
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    overflow: hidden;
+   
     
 }
 
 body{
     background-color: #e4e4e4;
-    min-width: 305px;
+    min-width: 442px;
 }
